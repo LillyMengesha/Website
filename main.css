@@ -1,0 +1,67 @@
+img{
+    width: 300px;
+}
+
+h1{
+    z-index: 200;
+color: red;
+font-size: 150px;
+}
+h2{
+    color: black;
+    font-size: 70px;
+}
+h3{
+    color: black;
+    font-size: 40px;
+}
+h4, img {
+    border: violet solid 3px;
+}
+h4, img {
+    width: 230px;
+    height: 230px;
+}
+
+h5{
+    color: black;
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+
+h1, img {
+    border: violet solid 5px;
+    margin: 0;
+}
+.flexbox {
+    display: flex;
+    min-height: 10vh;
+    justify-content: space-around;
+  }
+  .flexitem {
+    font-size: 80px;
+    border: 3px solid violet;
+    border-radius: 10px;
+    height: 100px;
+  }
+  a:hover {
+    color: coral;
+  }
+  a {
+    text-decoration: none;
+  }
+  .headerimage{
+      position:absolute;
+      z-index: -1;
+      width:100%;
+      height:400px;
+  }
